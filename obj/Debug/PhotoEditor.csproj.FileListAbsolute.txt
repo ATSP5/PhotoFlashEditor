@@ -1,0 +1,5 @@
+d:\Adam\GitHubWorkspace\PhotoEditor\obj\Debug\PhotoEditor.csprojAssemblyReference.cache
+d:\Adam\GitHubWorkspace\PhotoEditor\obj\Debug\MainWindow.g.cs
+d:\Adam\GitHubWorkspace\PhotoEditor\obj\Debug\App.g.cs
+d:\Adam\GitHubWorkspace\PhotoEditor\obj\Debug\PhotoEditor_MarkupCompile.cache
+d:\Adam\GitHubWorkspace\PhotoEditor\obj\Debug\PhotoEditor_MarkupCompile.lref
