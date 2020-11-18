@@ -5,9 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhotoEditor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-
-    </Grid>
+        Title="Photo Flash Editor" Height="450" Width="800">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="2000">
+            <MenuItem Header="File"/>
+            <MenuItem Header="View"/>
+            <MenuItem Header="Layers"/>
+            <MenuItem Header="Filters"/>
+            <MenuItem Header="Mirrors/Inverts"/>
+            <MenuItem Header="Drawing"/>
+            <MenuItem Header="Statistics"/>
+            <MenuItem Header="Resize"/>
+            <MenuItem Header="Stitch"/>
+            <MenuItem Header="Rotate"/>
+            <MenuItem Header="Components"/>
+            <MenuItem Header="About"/>
+        </Menu>
+        <Image x:Name="MainImage"/>
+    </DockPanel>
 </Window>
