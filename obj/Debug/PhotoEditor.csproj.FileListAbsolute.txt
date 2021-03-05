@@ -28,3 +28,5 @@ d:\Adam\GitHubWorkspace\PhotoEditor\obj\Debug\PhotoEditor.csproj.GenerateResourc
 d:\Adam\GitHubWorkspace\PhotoEditor\obj\Debug\PhotoEditor.csproj.CoreCompileInputs.cache
 d:\Adam\GitHubWorkspace\PhotoEditor\obj\Debug\PhotoEditor.exe
 d:\Adam\GitHubWorkspace\PhotoEditor\obj\Debug\PhotoEditor.pdb
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\Debug\Preview.g.cs
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\Debug\Preview.baml

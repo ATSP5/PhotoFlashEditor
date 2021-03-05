@@ -10,7 +10,10 @@
         <Menu DockPanel.Dock="Top" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="2000">
             <MenuItem Header="File"/>
             <MenuItem Header="View"/>
-            <MenuItem Header="Layers"/>
+            <MenuItem Header="Layers">
+                <MenuItem Header="Add Layer" Name="LayerAdder" Click="LayerAdder_Click"/>
+                <MenuItem Header="Delete Layer" Name="LayerDeleter" Click="LayerDeleter_Click"/>
+            </MenuItem>
             <MenuItem Header="Filters"/>
             <MenuItem Header="Mirrors/Inverts"/>
             <MenuItem Header="Drawing"/>
@@ -21,6 +24,13 @@
             <MenuItem Header="Components"/>
             <MenuItem Header="About"/>
         </Menu>
-        <Image x:Name="MainImage"/>
+        <StackPanel DockPanel.Dock="Left" Background="Azure" Name="ToolsPanel">
+            <Button DockPanel.Dock="Top" Height="100" Width="100"></Button>
+            <Button DockPanel.Dock="Top" Height="100" Width="100"></Button>
+            <Button DockPanel.Dock="Top" Height="100" Width="100"></Button>
+        </StackPanel>
+        <StackPanel DockPanel.Dock="Left" Background="Beige">
+            <Button DockPanel.Dock="Top" Height="100" Width="100" HorizontalAlignment="Left" Margin="10,10,10,10" Name="MainLayer"></Button>
+        </StackPanel>
     </DockPanel>
 </Window>

@@ -20,9 +20,26 @@ namespace PhotoEditor
     /// </summary>
     public partial class MainWindow : Window
     {
+         
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+       
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e) //Wyłącz wszystkie włączone okna !!!
+        {
+           
+        }
+
+        private void LayerAdder_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void LayerDeleter_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
