@@ -6,14 +6,10 @@
         xmlns:local="clr-namespace:PhotoEditor"
         mc:Ignorable="d"
         Title="Photo Flash Editor" Height="450" Width="800">
-    <DockPanel>
+    <DockPanel Background="Beige">
         <Menu DockPanel.Dock="Top" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="2000">
             <MenuItem Header="File"/>
             <MenuItem Header="View"/>
-            <MenuItem Header="Layers">
-                <MenuItem Header="Add Layer" Name="LayerAdder" Click="LayerAdder_Click"/>
-                <MenuItem Header="Delete Layer" Name="LayerDeleter" Click="LayerDeleter_Click"/>
-            </MenuItem>
             <MenuItem Header="Filters"/>
             <MenuItem Header="Mirrors/Inverts"/>
             <MenuItem Header="Drawing"/>
@@ -24,13 +20,18 @@
             <MenuItem Header="Components"/>
             <MenuItem Header="About"/>
         </Menu>
-        <StackPanel DockPanel.Dock="Left" Background="Azure" Name="ToolsPanel">
-            <Button DockPanel.Dock="Top" Height="100" Width="100"></Button>
-            <Button DockPanel.Dock="Top" Height="100" Width="100"></Button>
-            <Button DockPanel.Dock="Top" Height="100" Width="100"></Button>
+        <StackPanel DockPanel.Dock="Left" Background="Azure" Name="ToolsPanel"  Width="150">
+            <Border BorderBrush="Silver"  BorderThickness="2" CornerRadius="2,2,2,2" Background="GhostWhite" Margin="3 3 3 3">
+                <StackPanel>
+                    <TextBlock Text="Layer Settings" Margin="5 2 2 10" HorizontalAlignment="Center"/>
+                    <ComboBox Margin="10 5 10 5">
+                        <ComboBoxItem Content="Main Layer" IsSelected="True"/>
+                    </ComboBox>
+                    <Button Margin="10 5 10 5">Add Layer</Button>
+                    <Button Margin="10 5 10 5">Drop Layer</Button>
+                </StackPanel>
+            </Border>
         </StackPanel>
-        <StackPanel DockPanel.Dock="Left" Background="Beige">
-            <Button DockPanel.Dock="Top" Height="100" Width="100" HorizontalAlignment="Left" Margin="10,10,10,10" Name="MainLayer"></Button>
-        </StackPanel>
+        <Image DockPanel.Dock="Left" Margin="10 10 10 10" Source="269919_morze_skaly_niebo.jpg"></Image>
     </DockPanel>
 </Window>
