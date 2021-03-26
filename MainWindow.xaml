@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PhotoEditor"
         mc:Ignorable="d"
-        Title="Photo Flash Editor" Height="450" Width="800">
+        Title="Photo Flash Editor" Height="700" Width="1200">
     <DockPanel Background="Beige">
         <Menu DockPanel.Dock="Top" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="2000">
             <MenuItem Header="File"/>
