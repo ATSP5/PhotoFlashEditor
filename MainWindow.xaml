@@ -8,7 +8,12 @@
         Title="Photo Flash Editor" Height="700" Width="1200">
     <DockPanel Background="Beige">
         <Menu DockPanel.Dock="Top" HorizontalAlignment="Left" Height="24" VerticalAlignment="Top" Width="2000">
-            <MenuItem Header="File"/>
+            <MenuItem Header="File">
+                <MenuItem Header="Open" Name="Menu_File_Open" Click="Menu_File_Open_Click"/>
+                <MenuItem Header="Save" Name="Menu_File_Save"/>
+                <MenuItem Header="Save as" Name="Menu_File_Save_as"/>
+                <MenuItem Header="Close" Name="Menu_File_Close" Click="Menu_File_Close_Click"/>
+            </MenuItem>
             <MenuItem Header="View"/>
             <MenuItem Header="Filters"/>
             <MenuItem Header="Mirrors/Inverts"/>

@@ -41,5 +41,17 @@ namespace PhotoEditor
         {
 
         }
+
+        private void Menu_File_Close_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Menu_File_Open_Click(object sender, RoutedEventArgs e)
+        {
+            Layer layer = new Layer(100, 100); //FOR TESTING PURPOSE!!!
+            MessageBox.Show("A");
+            
+        }
     }
 }
