@@ -32,8 +32,9 @@
                     <ComboBox Margin="10 5 10 5">
                         <ComboBoxItem Content="Main Layer" IsSelected="True"/>
                     </ComboBox>
-                    <Button Margin="10 5 10 5">Add Layer</Button>
+                    <Button Margin="10 5 10 5" Name="Layer_Settings_AddLayer" Click="Layer_Settings_AddLayer_Click">Add Layer</Button>
                     <Button Margin="10 5 10 5">Drop Layer</Button>
+                    <Button Margin="10 5 10 5">Open Layer</Button>
                 </StackPanel>
             </Border>
         </StackPanel>

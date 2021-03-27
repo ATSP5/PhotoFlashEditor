@@ -1,0 +1,17 @@
+D:\Adam\GitHubWorkspace\PhotoEditor\bin\x64\Debug\PhotoEditor.exe.config
+D:\Adam\GitHubWorkspace\PhotoEditor\bin\x64\Debug\PhotoEditor.exe
+D:\Adam\GitHubWorkspace\PhotoEditor\bin\x64\Debug\PhotoEditor.pdb
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\PhotoEditor.csprojAssemblyReference.cache
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\MainWindow.g.cs
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\Preview.g.cs
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\App.g.cs
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\PhotoEditor_MarkupCompile.cache
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\PhotoEditor_MarkupCompile.lref
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\MainWindow.baml
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\Preview.baml
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\PhotoEditor.g.resources
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\PhotoEditor.Properties.Resources.resources
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\PhotoEditor.csproj.GenerateResource.cache
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\PhotoEditor.csproj.CoreCompileInputs.cache
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\PhotoEditor.exe
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\PhotoEditor.pdb

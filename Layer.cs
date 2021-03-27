@@ -7,19 +7,26 @@ namespace PhotoEditor
 {
     class Layer : HDRPixel
     {
-        public Layer(int width, int heigth)
+        public Layer()
         {
-            hDRPixels = new List<HDRPixel>();
-            for(int i=0; i<heigth; i++)
-            {
-                for(int q=0; q<width; q++)
-                {
-                    hDRPixels.Add(new HDRPixel());
-                }
-            }
+            
         }
        
-       public List<HDRPixel> hDRPixels; //PUBLIC FOR TEST!
+       private List<List<HDRPixel>> hDRPixels;
+
+       public int AlocateLayer(int width, int heigth)
+        {
+            hDRPixels = new List<List<HDRPixel>>();
+            for (int i = 0; i < heigth; i++)
+            {
+                hDRPixels.Add(new List<HDRPixel>());
+                for (int q = 0; q < width; q++)
+                {
+                    hDRPixels[i].Add(new HDRPixel());
+                }
+            }
+            return hDRPixels.Count() * hDRPixels[0].Count();
+        }
 
        protected override byte To8Bit() //TO DO !!!
         {

@@ -20,10 +20,12 @@ namespace PhotoEditor
     /// </summary>
     public partial class MainWindow : Window
     {
-         
+        List<Layer> layers;
         public MainWindow()
         {
             InitializeComponent();
+            layers = new List<Layer>();
+            layers.Add(new Layer());
         }
 
        
@@ -49,9 +51,12 @@ namespace PhotoEditor
 
         private void Menu_File_Open_Click(object sender, RoutedEventArgs e)
         {
-            Layer layer = new Layer(100, 100); //FOR TESTING PURPOSE!!!
-            MessageBox.Show("A");
-            
+           MessageBox.Show( layers[0].AlocateLayer(20000, 20000).ToString());   //TO DO: Add index ofcreated layer!
+        }
+
+        private void Layer_Settings_AddLayer_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

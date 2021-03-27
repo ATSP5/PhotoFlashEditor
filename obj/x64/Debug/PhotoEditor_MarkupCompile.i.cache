@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-D:\Adam\GitHubWorkspace\PhotoEditor\obj\Debug\
+D:\Adam\GitHubWorkspace\PhotoEditor\obj\x64\Debug\
 PhotoEditor
 none
 false
@@ -12,9 +12,9 @@ DEBUG;TRACE
 D:\Adam\GitHubWorkspace\PhotoEditor\App.xaml
 2-377604745
 
-10-899547062
+11422192557
 14-1692652987
 MainWindow.xaml;Preview.xaml;
 
-False
+True
 
